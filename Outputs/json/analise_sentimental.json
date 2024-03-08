@@ -1,0 +1,86 @@
+{
+    "documents": [
+        {
+            "id": "id__550",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.76,
+                "neutral": 0.23,
+                "negative": 0.01
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.28,
+                        "neutral": 0.67,
+                        "negative": 0.05
+                    },
+                    "offset": 0,
+                    "length": 53,
+                    "text": "“O sol está brilhando e os pássaros estão cantando.”  ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.76,
+                        "neutral": 0.23,
+                        "negative": 0.01
+                    },
+                    "offset": 53,
+                    "length": 70,
+                    "text": "“Eu adoro programar em Python porque é uma linguagem muito versátil.”  ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 97,
+                            "length": 9,
+                            "text": "linguagem",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 113,
+                            "length": 8,
+                            "text": "versátil",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.24,
+                        "neutral": 0.73,
+                        "negative": 0.03
+                    },
+                    "offset": 123,
+                    "length": 88,
+                    "text": "“A inteligência artificial está transformando o mundo de maneiras que nunca imaginamos.”",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

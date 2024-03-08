@@ -1,0 +1,3 @@
+“O sol está brilhando e os pássaros estão cantando.”
+“Eu adoro programar em Python porque é uma linguagem muito versátil.”
+“A inteligência artificial está transformando o mundo de maneiras que nunca imaginamos.”
